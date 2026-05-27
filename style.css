@@ -454,13 +454,13 @@ RESPONSIVE
 
     }
 
-    .nav-links{
-    gap:15px;
+.nav-links{
+    gap:12px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.nav-links a{
     font-size:0.8rem;
-    }
-
-    h2{
-    font-size:3rem;
-    }
-
+}
 }
