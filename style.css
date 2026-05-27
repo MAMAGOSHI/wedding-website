@@ -70,7 +70,7 @@ NAVBAR
     z-index:1000;
 
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
 
     padding:25px 8%;
@@ -79,10 +79,7 @@ NAVBAR
     backdrop-filter:blur(12px);
 }
 
-.logo{
-    color:white;
-    font-size:2rem;
-}
+
 
 .nav-links{
     display:flex;
