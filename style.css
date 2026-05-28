@@ -365,6 +365,31 @@ FAQ
     margin-bottom:10px;
     font-size:1.8rem;
 }
+.bank-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.bank-card{
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+    text-align:left;
+}
+
+.bank-card h3{
+    margin-bottom:25px;
+    font-size:2rem;
+    color:#b38b6d;
+}
+
+.bank-card p{
+    margin-bottom:15px;
+    line-height:1.8;
+}
 
 /* =========================
 RSVP
